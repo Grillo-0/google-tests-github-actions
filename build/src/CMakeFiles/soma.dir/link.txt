@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../lib/libsoma.a CMakeFiles/soma.dir/soma.cpp.o
-/usr/bin/ranlib ../lib/libsoma.a

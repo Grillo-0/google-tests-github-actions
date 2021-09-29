@@ -1,3 +1,0 @@
-soma.positivos 2 0
----
-soma.positivos
