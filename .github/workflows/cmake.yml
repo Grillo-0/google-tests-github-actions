@@ -16,7 +16,7 @@ jobs:
       run: pip3 install conan
       
     - name: Installing dependecies
-      run: conan install -fi build
+      run: conan install -if build
 
     - name: Build
       run: cmake --build build -j 2
