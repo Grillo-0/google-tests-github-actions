@@ -19,8 +19,8 @@ jobs:
       run: conan install -if build/ .
 
     - name: Build
-      run: cmake --build build -j 2
+      run: cmake --build build/ 
 
     - name: Test
       working-directory: build
-      run: ctest --output-on-failure -j 2
+      run: ctest 
