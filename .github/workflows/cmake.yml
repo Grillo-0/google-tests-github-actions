@@ -15,9 +15,6 @@ jobs:
     - name: Install conan
       run: pip3 install conan
 
-    - name: Configure
-      run: cmake --preset=ci-ubuntu
-
     - name: Build
       run: cmake --build build -j 2
 
