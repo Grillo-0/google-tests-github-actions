@@ -1,8 +1,7 @@
-#include <gtest/gtest.h>
-
+#include <iostream>
 #include <soma.hpp>
 
-TEST(soma, positivos)
+int main(void)
 {
-    EXPECT_EQ(6, soma(4, 2));
+    std::cout << soma(4, 4);
 }
