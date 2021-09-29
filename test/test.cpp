@@ -3,5 +3,5 @@
 
 TEST(soma, positivos)
 {
-    EXPECT_EQ(6, soma(4, 2));
+    EXPECT_EQ(8, soma(4, 2));
 }
