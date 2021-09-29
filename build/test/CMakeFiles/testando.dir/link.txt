@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/testando.dir/test.cpp.o -o ../bin/testando   -L/home/grillo/.conan/data/gtest/cci.20210126/_/_/package/e019a06362b932ca5d1b082b6c112aa150c88de4/lib  -Wl,-rpath,/home/grillo/.conan/data/gtest/cci.20210126/_/_/package/e019a06362b932ca5d1b082b6c112aa150c88de4/lib -lgtest_main -lgmock_main -lgmock -lgtest -lpthread ../lib/libsoma.a 

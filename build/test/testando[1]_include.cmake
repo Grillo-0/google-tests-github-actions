@@ -1,0 +1,5 @@
+if(EXISTS "/home/grillo/zenith/google-tests-github-actions/build/test/testando[1]_tests.cmake")
+  include("/home/grillo/zenith/google-tests-github-actions/build/test/testando[1]_tests.cmake")
+else()
+  add_test(testando_NOT_BUILT testando_NOT_BUILT)
+endif()
